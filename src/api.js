@@ -12,7 +12,6 @@ const checkToken = async (accessToken) => {
 };
 
 const removeQuery = () => {
-  console.log('removeQuery', window.location.protocol, window.location.host, window.location.pathname)
   if (window.history.pushState && window.location.pathname) {
     var newurl =
       window.location.protocol +
